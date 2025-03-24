@@ -47,13 +47,6 @@ const nextConfig = {
         'node:tls': false,
       };
     }
-
-    // Handle binary files
-    config.module.rules.push({
-      test: /\.node$/,
-      use: 'node-loader',
-    });
-
     return config;
   },
   // Add experimental features
