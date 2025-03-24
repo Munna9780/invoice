@@ -17,7 +17,8 @@
   },
   "build": {
     "env": {
-      "NEXT_SHARP_PATH": "/tmp/node_modules/sharp"
+      "NEXT_SHARP_PATH": "/tmp/node_modules/sharp",
+      "SHARP_IGNORE_GLOBAL_LIBVIPS": "1"
     }
   }
 } 
