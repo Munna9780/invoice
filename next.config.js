@@ -23,6 +23,10 @@ const nextConfig = {
         https: false,
         assert: false,
         os: false,
+        canvas: false,
+        process: false,
+        net: false,
+        tls: false,
       };
     }
     return config;
