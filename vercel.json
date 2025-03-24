@@ -14,5 +14,10 @@
   ],
   "env": {
     "NEXT_PUBLIC_URL": "https://your-domain.vercel.app"
+  },
+  "build": {
+    "env": {
+      "NEXT_SHARP_PATH": "/tmp/node_modules/sharp"
+    }
   }
 } 
